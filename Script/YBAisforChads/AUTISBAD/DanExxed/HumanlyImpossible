@@ -3,7 +3,7 @@
 
 print("Peeing...")
 game.StarterGui:SetCore("SendNotification", {
-    Title = "DanHubCracked (made by the owner LOL)";
+    Title = "AntiXenon (RageQuitHub)";
     Text = "Loading...",
     Duration = 5
 })
