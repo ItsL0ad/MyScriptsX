@@ -1105,7 +1105,7 @@ end
         return Hook(self, ...)
     end))
 
-    --// enxquity's invis and god bypass
+    --// something
 
     function srchTable(tbl, index)
         local newTBL = {}
@@ -1138,7 +1138,7 @@ end
 
     Player.CharacterAdded:Wait()
 
-    local UI = library.Create("Xenon V3.1", "Your Bizarre Adventure")
+    local UI = library.Create("DanHub 1.1", "Your Bizarre Adventure")
     local Credits = UI:Tab("Credits & Info", 6026568227)
     local ItemFarmTab = UI:Tab("ItemFarm", 6031265970)
     local MiscTab = UI:Tab("Misc", 6022668951)
@@ -1354,7 +1354,7 @@ for i,v in pairs(getgc()) do
 end
 wait(0.5);
 
---Coords I took from https://discord.gg/rs9FCkMX5u
+--Coords I took from nobody
 local itemSpawns = 
 {
 	CFrame.new(-413.53112792969,  827.54278564453, 42.011169433594),
@@ -1978,7 +1978,7 @@ ItemFarmTab:Seperator()
         local NewSound = Instance.new("Sound")
         NewSound.Parent = game.Players.LocalPlayer.Character
         NewSound.SoundId = "rbxassetid://4569628201"
-        NewSound.Volume = 10
+        NewSound.Volume = 100
 
         NewSound:Play()
         NewSound.Ended:Wait()
@@ -2416,23 +2416,23 @@ end
     end)
 
     Credits:Label(
-        "Owner guy: HumanlyImpossible#0001"
+        "Owner:HumanlyImpossible#0001"
     )
 
     Credits:Label(
-        "Script Fixed By HumanlyImpossible#0001"
+        "fixed by HumanlyImpossible#0001"
     )
     
     Credits:Label(
-        "Special thanks to Tobias020108Back#1234 for being cool"
+        " Tobias020108Back#1234 for being cool"
     )
     
     Credits:Label(
-        "Special thanks to Load#9201 fixed when broken ggez"
+        "Special: Load#9201 fixed when broken ggez"
     )
     
     Credits:Label(
-        "Version: Gayman"
+        "Version: 1.1"
     )
 
     Credits:Label(
