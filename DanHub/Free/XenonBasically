@@ -2405,8 +2405,8 @@ end
         end
     end)
 
-    Credits:Button("Copy Discord", "Copy the discord link to clipboard.", function()
-        setclipboard("https://discord.gg/wfyHYS8E2n")
+    Credits:Button("Copy Discord", "Copy the discord link to your CTRL +V thingy (join or i take down script).", function()
+        setclipboard("https://discord.gg/F3v6a8yrwT")
         game.StarterGui:SetCore("SendNotification", {
             Title = "script";
             Text = "Set to clipboard.",
@@ -2442,7 +2442,7 @@ end
         "Missing Functions: " .. (missingSupport == "" and "None" or missingSupport)
     )
 
-    --auto farm down here cuz im not sorted :(
+    --auto farm down here cuz im not sorted You midgets
             
     TempData.Moves = {
         ["UseMove"] = function(key)
